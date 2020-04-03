@@ -41,6 +41,11 @@ Clients use the Pyro name server to locate the front-end server, thus no configu
 
 The client uses a simple command-line interface to demonstrate the distributed system in action, the servers additionally output information about what they are doing.
 
+On opening and connection the client prompts for a postcode.
+The two post codes that some order history data has been provided for are: DH1 3LG and DH1 3LE (others can be used, they just won't have an order history).
+Once a postcode is entered, all available commands are shown (and data entry prompts are given where appropriate when commands are run).
+Postcodes are only verified with the API when an order is made.
+
 ## System Overview
 ### Workflow
 ![alt text](./workflow.png "Workflow Diagram")
